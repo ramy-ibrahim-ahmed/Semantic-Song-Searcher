@@ -3,8 +3,8 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 import torch
-from main import MODEL
-from main import CosineSimilarity
+from src.embed import MODEL
+from src.embed import CosineSimilarity
 
 api = FastAPI()
 

@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import torch
-from main import MODEL
-from main import CosineSimilarity
+from src.embed import MODEL
+from src.embed import CosineSimilarity
 
 def display_similar_songs(data, similarity_scores, k):
     # Get top k similarities in form of indices by partitioning.

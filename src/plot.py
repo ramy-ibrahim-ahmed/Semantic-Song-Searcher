@@ -6,8 +6,8 @@ import torch
 
 from sentence_transformers.util import cos_sim
 from sklearn.decomposition import PCA
-from main import MODEL
-from preprocessing import preprocess_text
+from src.embed import MODEL
+from src.preprocessing import preprocess_text
 
 data = pd.read_csv("data.csv")
 embeddings = MODEL.encode(data["Lyric"].head(5).apply(preprocess_text).tolist(), convert_to_tensor=True)

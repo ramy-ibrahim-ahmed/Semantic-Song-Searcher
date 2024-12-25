@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-from preprocessing import preprocess_text
+from src.preprocessing import preprocess_text
 
 # import torch
 
