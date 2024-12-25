@@ -1,4 +1,4 @@
-# Song Lyrics Similarity Search
+# 🎶Song Lyrics Similarity Search
 
 This project is a song lyrics similarity search application. It allows users to enter a song query, and the app finds similar songs based on the cosine similarity of their lyrics embeddings.
 
